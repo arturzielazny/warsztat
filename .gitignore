@@ -1,0 +1,19 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+Gemfile.lock
+vendor/
+
+# macOS
+.DS_Store
+
+# Old WordPress backup files (not needed in repo)
+posts.tsv
+options.tsv
+zielazny_db.sql
+theme/
+uploads/

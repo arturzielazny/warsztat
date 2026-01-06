@@ -1,0 +1,129 @@
+// Navigation
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba($bg-primary, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border-color;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.nav-logo {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: $text-primary;
+
+  &:hover {
+    color: $accent-primary;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  a {
+    color: $text-secondary;
+    font-weight: 500;
+    transition: color $transition-fast;
+
+    &:hover,
+    &.active {
+      color: $accent-primary;
+    }
+  }
+}
+
+.nav-cta {
+  padding: 0.5rem 1rem;
+  background: $accent-primary;
+  color: $bg-primary !important;
+  border-radius: 6px;
+
+  &:hover {
+    background: $accent-secondary;
+  }
+}
+
+// Mobile menu toggle
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+
+  span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: $text-primary;
+    transition: all $transition-fast;
+  }
+
+  &.active {
+    span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+  }
+}
+
+// Mobile styles
+@media (max-width: $bp-md) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: $bg-secondary;
+    border-bottom: 1px solid $border-color;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height $transition-base;
+
+    &.active {
+      max-height: 300px;
+    }
+
+    li {
+      width: 100%;
+    }
+
+    a {
+      display: block;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid $border-color;
+    }
+
+    .nav-cta {
+      margin: 1rem 1.5rem;
+      text-align: center;
+    }
+  }
+}

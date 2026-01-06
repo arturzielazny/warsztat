@@ -1,0 +1,25 @@
+business_name: "Serwis Samochodowy Zielazny"
+tagline: "Elektronika i diagnostyka samochodowa"
+subtitle: "20 minut od Bydgoszczy"
+
+address:
+  street: "ul. Marii Konopnickiej 6"
+  postal: "86-010"
+  city: "Koronowo"
+
+phones:
+  - name: "Piotr Zielazny"
+    number: "509 106 678"
+    tel: "+48509106678"
+  - name: "Adam Zielazny"
+    number: "602 513 014"
+    tel: "+48602513014"
+  - name: "Sklep"
+    number: "+48 52 38 22 812"
+    tel: "+48523822812"
+
+email: "firma@zielazny.pl"
+
+maps:
+  embed_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.8!2d17.944107!3d53.309852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDE4JzM1LjUiTiAxN8KwNTYnMzguOCJF!5e0!3m2!1spl!2spl"
+  link_url: "https://maps.google.com/?q=53.309852,17.944107"

@@ -1,0 +1,50 @@
+- id: elektromechanika
+  title: Elektromechanika
+  icon: bolt
+  description: Naprawy instalacji elektrycznych oraz regeneracja podzespołów.
+  details:
+    - Naprawy instalacji elektrycznych
+    - Regeneracja alternatorów
+    - Regeneracja rozruszników
+    - Regeneracja pomp paliwowych
+    - Montaż dodatkowych świateł
+    - Instalacja haka holowniczego
+
+- id: diagnostyka
+  title: Diagnostyka komputerowa
+  icon: cpu
+  description: Diagnostyka komputerowa samochodów wszystkich marek.
+  details:
+    - Układy wtryskowe benzyny i diesla
+    - Układy hamulcowe (ABS, ASR, ESP, EPB)
+    - Systemy airbag
+    - Układy komfortu
+    - Wskaźniki
+    - Zerowanie inspekcji serwisowych
+    - Immobiliser
+    - Układy klimatyzacji
+
+- id: elektronika
+  title: Elektronika
+  icon: circuit
+  description: Naprawa elektroniki w samochodach wszystkich marek.
+  details:
+    - Układy wtryskowe
+    - Układy hamulcowe
+    - Systemy bezpieczeństwa
+    - Systemy komfortu
+    - Klimatyzacja
+
+- id: klimatyzacja
+  title: Serwis klimatyzacji
+  icon: snowflake
+  description: Kompleksowy serwis klimatyzacji samochodowej.
+  details:
+    - Okresowe przeglądy klimatyzacji
+    - Napełnianie układu czynnikiem
+    - Kontrola szczelności
+    - Naprawa nieszczelności
+    - Regeneracja sprężarek
+    - Dezynfekcja i odgrzybianie
+    - Płukanie układu
+    - Wymiana oleju sprężarkowego

@@ -1,0 +1,32 @@
+# Site settings
+title: "Serwis Samochodowy Zielazny"
+description: "Elektronika i diagnostyka samochodowa - profesjonalny serwis w Koronowie, 20 minut od Bydgoszczy"
+url: ""
+baseurl: ""
+lang: pl
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+  - posts.tsv
+  - options.tsv
+  - zielazny_db.sql
+  - uploads
+  - theme
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-seo-tag
+
+# SEO defaults
+author: "Serwis Samochodowy Zielazny"
+locale: "pl_PL"
