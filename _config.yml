@@ -17,11 +17,6 @@ exclude:
   - README.md
   - node_modules
   - vendor
-  - posts.tsv
-  - options.tsv
-  - zielazny_db.sql
-  - uploads
-  - theme
 
 # Plugins (GitHub Pages compatible)
 plugins:
