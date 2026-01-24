@@ -1,8 +1,8 @@
 # Site settings
 title: "Serwis Samochodowy Zielazny"
 description: "Elektronika i diagnostyka samochodowa - profesjonalny serwis w Koronowie, 20 minut od Bydgoszczy"
-url: "https://arturzielazny.github.io"
-baseurl: "/warsztat"
+url: "https://zielazny.pl"
+baseurl: ""
 lang: pl
 
 # Build settings
